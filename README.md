@@ -4,17 +4,17 @@ CS3560 Assignment 2 - Twitter Simulation with OOP design patterns and a JavaFX U
 ## Required Components
 
 ### GUI (JavaFX)
-* UI control panel
+* UI control panel - `Admin.java`, `Alert.java`
   * Tree view with all users and user groups that allows for user selection
   * Text area and button that allows a new user to be added to the tree
   * Text area and button that allows a new user group to be added to the tree
-  * Button to open the user view, selected from the tree view
+  * Button to open the user view, selected from the tree view (opens `UserView.java`)
   * Button to show total users
   * Button to show total user groups
   * Button to show total messages between all users
   * Button to show the percentage of positive messages between all users
   
-* User View
+* User View - `UserView.java`
   * Displays user ID at the top of the window
   * Text area and button that allows the user to follow another user
   * List view of who the user is following
@@ -40,3 +40,4 @@ CS3560 Assignment 2 - Twitter Simulation with OOP design patterns and a JavaFX U
   * `AllGroups.java`
   * `AllTweets.java`
   * `PosTweets.java`
+  
